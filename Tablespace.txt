@@ -1,0 +1,17 @@
+table space:
+
+select name from v$tablespace;
+
+select name from v$datafile;
+
+create tablespace Bus_1 datafile 'c:\app\oracle\product\database\oracledb\bus_1.dbf' size 100m;
+
+
+creating user:
+
+create user heman identified by saibaba8;
+
+grant connect to heman;
+
+grant sysdba to heman;
+
